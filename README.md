@@ -3,7 +3,7 @@
 A simple web app that fetches random cat facts from a public API and lets you save your favorites.
 
 ## 🔗 Live Demo
-[View live site]( https://ehetrams.github.io/cat-fact-check/) 
+[View live site](https://ehetrams.github.io/cat-fact-check/) 
 
 ## Features
 - Fetches a random cat fact from the [Cat Facts API](https://catfact.ninja/) on load and on click
@@ -28,8 +28,7 @@ A simple web app that fetches random cat facts from a public API and lets you sa
 
 ## Run Locally
 ```bash
-git clone https://github.com/yourusername/cat-fact-check.git
-cd cat-fact-check
+git clone https://github.com/ehetrams/cat-fact-check.git
 ```
 Then just open `index.html` in your browser — no build step needed.
 
