@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+body {
+  min-height: 100vh;
+  background: url(catBg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 100px;
+}
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  position: relative;
+  padding: 20px 20px 20px 50px;
+  min-height: 350px;
+  width: 450px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  background-color: #faf9f7;
+  display: flex;
+  flex-direction: column;
+}
+.heart-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  color: #d19d6e;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+  z-index: 2;
+}
+.heart-btn:hover {
+  color: red;
+  transform: scale(1.05);
+}
+.heading {
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.btn {
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+.fa-paw {
+  margin-right: 10px;
+}
+.btn button {
+  height: 40px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 999px;
+  background-color: #d19d6e;
+  color: white;
+  box-shadow: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.btn button:hover {
+   background-color: #ea974e;
+  transform: scale(1.05);
+}
+.fav-box {
+  width: 450px;
+  background-color: #faf9f7;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  margin-top: 15px;
+}
+.fav-heading {
+  font-size: 16px;
+  font-weight: bolder;
+  color: black;
+  margin: 5px 0 2px 15px;
+}
+.fav-list {
+  list-style: none;
+  padding: 0px 10px 10px 10px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+.fav-list li {
+  font-size: 14px;
+  color: #4a4a47;
+  padding: 10px;
+  border-bottom: 1px solid #f6c491;
+}
+.remove-btn {
+  background-color: #f6c491;
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 12px;
+  width: 20px;
+  color: #faf9f7;
+  border: 1px solid #4a4a47;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+.remove-btn:hover {
+  background-color: #ea974e;
+  transform: scale(1.05);
+}
