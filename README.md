@@ -34,3 +34,5 @@ cd cat-fact-check
 Then just open `index.html` in your browser — no build step needed.
 
 ## Screenshot
+<img width="960" height="511" alt="Screenshot 2026-09-18 210434" src="https://github.com/user-attachments/assets/0e5ea5ae-660d-41e9-b583-4b2fc3311e2a" />
+
